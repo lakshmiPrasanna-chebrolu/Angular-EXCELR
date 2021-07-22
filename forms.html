@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Forms -HTML</title>
+	<!-- the way to collect information from the user -->
+</head>
+<body>
+	<h1>Form Elements</h1>
+	<form>
+		<label>Register</label><!-- Specifying what the input is for -->
+		<input type="text" name="username" placeholder="Enter Username"> <!-- type is pre-defined and name is user defined name-->
+		<input type="password" name="userpassword" placeholder="Enter password">
+		<input type="file" name="profilepic">
+		<input type="hidden" name="Aadhar" value="465673268827">
+	   <label>Gender</label>
+		<input type="radio" name="gender" value="male" id="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" value="female" id="female">
+		<label for="female">female</label>
+	<label>Skills</label>
+		<input type="checkbox" name="skills" value="html" id="html">
+		<label for="html">HTML</label>
+		<input type="checkbox" name="skills" value="js" id="js">
+		<label for="js">Javascript</label>
+		<input type="checkbox" name="skills" value="css" id="css">
+		<label for="css">CSS</label>
+		<input type="checkbox" name="skills" value="Angular" id="Angular">
+		<label for="Angular">Angular</label>
+	<label>Country</label>
+		<select>
+			<option>--Select--</option>
+			<option value="IN">India</option>
+			<option value="US">USA</option>
+			<option value="UK">United Kingdom</option>
+			<option value="IT">Italy</option>
+		</select>
+		<label>Address</label>
+		<textarea></textarea>
+
+		<input type="submit" name="create" value="Register">
+
+		<input type="reset" name="reset" value="Restore to default">
+	</form>
+</body>
+</html>
